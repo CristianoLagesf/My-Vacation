@@ -1,0 +1,371 @@
+$color-bg-primary: #fafbfc;
+$color-primary-text: #343a40;
+$color-secondary-text: #ffffff;
+$color-bg-color-company: #005b9e;
+$color-bg-form: #f0f3f5;
+
+$color-btn-header: #212a30;
+
+$body-font: "Roboto", sans-serif;
+
+// Main Tags
+body {
+  background-color: $color-bg-primary;
+  font-family: $body-font;
+  color: $color-primary-text;
+}
+h2 {
+  font-weight: 700;
+  /* color: #212a30; */
+}
+i {
+  font-size: 24px;
+}
+p {
+  font-weight: 400;
+  max-width: 600px;
+  color: $color-primary-text;
+}
+
+footer {
+  background-color: $color-bg-color-company;
+  padding: 20px 0;
+  p {
+    margin-left: 15px;
+    color: $color-secondary-text;
+  }
+}
+
+.logo {
+  width: auto;
+  height: 74px;
+}
+
+/* NavBar */
+.modal-header {
+  border: 0;
+  height: 60px;
+}
+.btn-header {
+  color: $color-btn-header;
+  border: 3px solid $color-btn-header;
+  height: 54px;
+  width: auto;
+
+  transition: all 0.2s ease-in-out;
+}
+.btn-header:hover {
+  transform: scale(1.1);
+  box-shadow: 2px 2px 2px 2px $color-btn-header;
+}
+
+.btn-offCanvas {
+  color: $color-btn-header;
+  border: 3px solid $color-btn-header;
+  height: 54px;
+  width: auto;
+  transition: all 0.2s ease-in-out;
+}
+.btn-offCanvas:hover {
+  transform: scale(1.1);
+  box-shadow: 2px 2px 2px 2px $color-btn-header;
+}
+
+.btn-search {
+  height: 54px;
+  width: 200px;
+  color: $color-secondary-text;
+  background-color: $color-bg-color-company;
+  border-radius: 12px;
+  transition: all 0.2s ease-in-out;
+  font-weight: 700;
+  font-size: 20px;
+}
+.btn-search:hover {
+  transform: scale(1.1);
+  box-shadow: 2px 2px 2px 2px $color-btn-header;
+}
+
+.form-select {
+  background-color: $color-bg-form;
+}
+
+.menuSearch {
+  max-height: 350px;
+  min-height: 150px;
+  border-radius: 12px;
+}
+
+.bg-company {
+  background-color: $color-bg-color-company;
+  border-radius: 12px;
+  padding: 24px;
+  h2 {
+    padding-top: 12px;
+    margin-bottom: 24px;
+    font-size: 35px;
+    color: $color-bg-primary;
+  }
+  p {
+    margin-bottom: 24px;
+    font-size: 20px;
+    color: $color-bg-primary;
+    line-height: 1.9;
+  }
+}
+
+.image-company {
+  width: 350px;
+  height: auto;
+  border-radius: 12px;
+}
+
+.image {
+  /* border-radius: 12px;
+    max-width: 100%; */
+  height: auto;
+  /* width: 350px; */
+}
+
+.title {
+  font-size: 48px;
+}
+
+.card-size {
+  max-width: 400px;
+  max-height: 500px;
+  border: 0;
+
+  background-color: $color-bg-primary;
+}
+.cardTitle {
+  font-weight: bold;
+  color: $color-btn-header;
+  margin-bottom: 42px;
+}
+
+.card-info {
+  font-size: 24px;
+  font-weight: bold;
+  color: $color-btn-header;
+}
+.card-text {
+  font-size: 24px;
+  font-weight: 400;
+  color: $color-btn-header;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.card-img-top {
+  height: 400px;
+  width: auto;
+  border-radius: 12px;
+}
+
+.span-review {
+  background-color: $color-bg-color-company;
+  color: $color-bg-primary;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+/* menu offCanvas */
+.offcanvas-header {
+  img {
+    width: 150px;
+    height: auto;
+  }
+}
+.btn-menu-offcanvas {
+  font-size: 24px;
+  color: $color-btn-header;
+  text-decoration: none;
+  padding-left: 12px;
+  box-shadow: inset 0 0 0 0 $color-bg-color-company;
+  color: $color-bg-color-company;
+  margin: 0 -0.25rem;
+  padding: 0 0.25rem;
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.btn-menu-offcanvas:hover {
+  box-shadow: inset 200px 0 0 0 $color-bg-color-company;
+  color: white;
+}
+.img-btn {
+  padding-right: 24px;
+}
+/* login & Sign form */
+
+.form-login {
+  height: 400px;
+  width: 300px;
+  padding: auto;
+}
+
+#loginEmail {
+  width: 250px;
+  border: 0;
+  border-bottom: 1px solid black;
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+
+#loginPassword {
+  width: 250px;
+  border: 0;
+  border-bottom: 1px solid black;
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+
+/* Carousel */
+.swiper {
+  width: 950px;
+}
+
+/* saerch page */
+
+.card-search {
+  border: 3px solid rgb(131, 128, 128);
+  border-radius: 16px;
+  margin-bottom: 54px;
+
+  .image-company {
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  .card-info {
+    border-left: 3px solid rgb(131, 128, 128);
+    height: 100%;
+    width: 100%;
+  }
+  h3 {
+    padding: 8px;
+    font-weight: 700;
+  }
+  p {
+    padding: 8px;
+    color: $color-bg-color-company;
+  }
+  .text {
+    color: $color-primary-text;
+    font-size: 14px;
+    padding: 8px;
+    line-height: 1.9;
+  }
+  ul {
+    color: $color-bg-color-company;
+    font-weight: 400;
+    font-size: 14px;
+  }
+  .price {
+    font-weight: 400;
+    font-size: 16px;
+    color: $color-primary-text;
+  }
+  .span-review {
+    border: 2px solid $color-bg-color-company;
+    margin-right: 4px;
+    font-size: 54px;
+    font-weight: 400;
+    background-color: $color-bg-primary;
+    color: $color-bg-color-company;
+  }
+
+  ::marker {
+    content: "» ";
+    font-size: 18px;
+  }
+}
+
+// Payment
+.style {
+  margin-bottom: 44px;
+}
+
+.a {
+  border: 4px solid $color-bg-color-company;
+  padding: 8px;
+  margin: 14px;
+}
+.paymento-info {
+  width: 600px;
+  height: auto;
+  background-color: #c5c9cc;
+
+  .card-wrapper {
+    background-color: $color-bg-primary;
+    width: 100%;
+    display: flex;
+    img {
+      width: 45%;
+    }
+  }
+  .Payment-top {
+    background-color: $color-bg-color-company;
+    color: $color-secondary-text;
+  }
+  h1 {
+    font-size: 1.3em;
+  }
+  input {
+    margin: 1px 0;
+    padding-left: 3%;
+    font-size: 14px;
+    display: block;
+    height: 50px;
+    width: 100%;
+    border: none;
+  }
+  input[type="submit"] {
+    display: block;
+    height: 60px;
+    width: 100%;
+    border: none;
+    background-color: $color-bg-color-company;
+    color: #fff;
+    margin-top: 2px;
+    curson: pointer;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  input[type="submit"]:hover {
+    background-color: #6fb7e9;
+    transition: 0.3s ease;
+  }
+  #column-left {
+    width: 46.5%;
+    float: left;
+    margin-bottom: 2px;
+  }
+  #column-right {
+    width: 46.5%;
+    float: right;
+  }
+}
+
+.Purchase-info {
+  .Payment-top {
+    background-color: $color-bg-color-company;
+    color: $color-secondary-text;
+  }
+  h1 {
+    font-size: 1.3em;
+  }
+  .style {
+    font-size: 20px;
+    font-family: $body-font;
+    font-weight: bold;
+    // border: 4px solid black;
+  }
+  label {
+    margin: 8px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
